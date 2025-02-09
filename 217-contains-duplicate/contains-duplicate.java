@@ -1,3 +1,7 @@
+//just find the length of hashset and the nums array if they are not equal simply says duplicate exists
+
+
+
 class Solution {
     public boolean containsDuplicate(int[] nums) {
         HashSet<Integer> set=new HashSet();
