@@ -1,3 +1,19 @@
+//for finding next permutation
+//since we observe that if we iterate from end we find that there is a code in descending order and at a point we find the end of descending
+//value so at the point were we find the end of descending value we get pivot point
+//after finding pivot find we iterate again from last until we find the number which is greater than pivot index value 
+//then simply swap it with the greater value
+//and last sort the value after pivot index so that we get the next permutation
+
+
+
+
+
+
+
+
+
+
 class Solution {
     public void swap(int arr[],int i,int j){
         int temp=arr[i];
