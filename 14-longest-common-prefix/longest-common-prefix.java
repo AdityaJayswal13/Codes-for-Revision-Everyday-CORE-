@@ -1,3 +1,9 @@
+//first sort lexigraphically so that the smallest string and the largest string are in the first and last respecively in array
+//take the first array of characters of first string 
+//take the second array of character of last string 
+//and take a for loop and check for first string charcters with the last if at any point the characters will not matched simply return the srtring
+//do it with help of stringBuilder 
+
 class Solution {
     public String longestCommonPrefix(String[] strs) {
         Arrays.sort(strs);
