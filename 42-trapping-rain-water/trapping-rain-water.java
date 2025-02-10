@@ -1,3 +1,8 @@
+//So first first of all we find the leftMax BOundry for each height
+//simlarly right Max boundry for each height
+//And then waterlevel the min of leftmax and rightMax
+//simply find the trapped rain water by subtracting the waterlevel to every respective heights
+
 class Solution {
     public int trap(int[] height) {
         int n=height.length;
