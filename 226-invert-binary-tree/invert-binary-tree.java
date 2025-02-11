@@ -13,6 +13,7 @@
  *     }
  * }
  */
+// so here simply within a root just swap left and right node of the root and call for left subtree and right subtree of the root
 class Solution {
     public TreeNode invertTree(TreeNode root) {
         if(root==null){
