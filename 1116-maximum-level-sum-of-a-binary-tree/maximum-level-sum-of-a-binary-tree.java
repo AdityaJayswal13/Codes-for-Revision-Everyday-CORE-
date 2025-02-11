@@ -13,6 +13,10 @@
  *     }
  * }
  */
+//so go level wise ordering 
+//first we put our element in a queue with a null to ensure the end of the level
+//every time as we encounter null we simply add the all values and find maximum in all levels
+// and simply returns the maximum
 class Solution {
     public int maxLevelSum(TreeNode root) {
         int maxsum=Integer.MIN_VALUE;
