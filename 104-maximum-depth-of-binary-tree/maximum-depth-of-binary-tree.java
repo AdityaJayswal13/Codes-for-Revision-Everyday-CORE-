@@ -13,6 +13,7 @@
  *     }
  * }
  */
+//just find the left depth and right depth and find which is maximum and simply add 1 recursively
 class Solution {
     public int maxDepth(TreeNode root) {
         if(root==null){
